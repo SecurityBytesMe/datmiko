@@ -47,7 +47,7 @@ args = parser.parse_args()
 #             'no ntp server IPADDRESS',
 #             'no ntp server IPADDRESS',
 #             'ntp server example-clock.com prefer',
-#             'ntp server c14-ipv6clock.examplecom',
+#             'ntp server example-ipv6clock.examplecom',
 #             'write memory']
 
 commands = ['show version']
