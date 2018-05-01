@@ -14,7 +14,7 @@ $ python datmiko.py -u admin -p PASS -s switch-1 switch-2 switch-3
 $ python datmiko.py -u admin -p PASS -f switches.txt
 ```
 
-## changing command ran on switches
+## changing command(s) ran on switches
 in `datmiko.py` find `commands` variable and change this to what you want
 ```
 commands = ['ip domain-name example.com',
@@ -23,6 +23,6 @@ commands = ['ip domain-name example.com',
             'no ntp server IPADDRESS',
             'no ntp server IPADDRESS',
             'ntp server example-clock.com prefer',
-            'ntp server example-ipv6clock.examplecom',
+            'ntp server example-ipv6clock.example.com',
             'write memory']
 ```
